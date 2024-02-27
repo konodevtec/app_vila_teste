@@ -1,9 +1,18 @@
 @charset "UTF-8";
 
+/*
+    color:
+    1 - #526258
+    2 - #484747
+
+*/
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body,html{
@@ -12,9 +21,8 @@ body,html{
 }
 
 header{
-    position: relative;
     width: 100%;
-    height: 15.6vh;
+    background-color: white;
 }
 
 header img{
@@ -25,38 +33,57 @@ header img{
 }
 
 main{
-    width: 100vw;
-    margin-top: 20px;
-}
-
-main > ul{
     display: flex;
     flex-direction: column;
+    margin-left: 3vw;
+    width: 94%;
+    background-color: #526258 ;
+
 }
 
-main > ul > li {
-  list-style: none;
-  background-color: #526258;
-  border-bottom: 1px solid white;
-  text-align: center;
-  padding: 30px;
+section{
+    display: flex;
+    flex-direction: column;
+    border-bottom:  1px solid white;
+    
 }
 
-main > ul > li > a{
-    text-decoration: none;
-    text-transform: none;
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
     color: white;
+}
+
+.buttom{
+    display: flex;
+    justify-content: left;
+    margin-left: 30px;
+    padding-top: 20px;
+    margin-bottom: -18px;
+    color: white;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    width: 94%;
+    background-color:#484747 ;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+}
+
+footer > div > span{
+    padding: 20px;
     font-size: 1.3em;
-    cursor: pointer;
 }
 
-main > ul > li > a > .fa{
-    position: absolute;
-    left: 8%;
-    color: black;
+footer > div > span> a > i{
+    color: white;
 }
-
-
-
 
 
