@@ -14,12 +14,12 @@ body,html{
 header{
     position: relative;
     width: 100%;
-    height: 25vh;
+    height: 15.6vh;
 }
 
 header img{
     display: block;
-    width: 180px;
+    width: 150px;
     margin:auto;
     padding-top: 10px;
 }
@@ -29,10 +29,15 @@ main{
     margin-top: 20px;
 }
 
+main > ul{
+    display: flex;
+    flex-direction: column;
+}
+
 main > ul > li {
   list-style: none;
   background-color: #526258;
-  border: 1px solid white;
+  border-bottom: 1px solid white;
   text-align: center;
   padding: 30px;
 }
@@ -45,9 +50,10 @@ main > ul > li > a{
     cursor: pointer;
 }
 
-main > ul > li > a> span{
+main > ul > li > a > .fa{
+    position: absolute;
+    left: 8%;
     color: black;
-    border: 1px solid black;
 }
 
 
