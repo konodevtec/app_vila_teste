@@ -31,7 +31,7 @@ main{
 
 main > ul > li {
   list-style: none;
-  background-color: green;
+  background-color: #526258;
   border: 1px solid white;
   text-align: center;
   padding: 30px;
@@ -50,10 +50,7 @@ main > ul > li > a> span{
     border: 1px solid black;
 }
 
-footer{
-    width: 100vw;
-    height: 10vh;
-}
+
 
 
 
