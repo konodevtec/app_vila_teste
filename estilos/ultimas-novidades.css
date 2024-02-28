@@ -60,7 +60,7 @@ main .titulo{
 }
 
 .mensagem{
-    margin:20px;
+    margin:30px;
     width: 360px;
     height: 150px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
