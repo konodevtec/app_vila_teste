@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pequenas Famílias</title>
-    <link rel="stylesheet" href="./estilos/pequena-familia.css">
+    <title>Pedidos de Oração</title>
+    <link rel="stylesheet" href="./estilos/pedidos-oracao.css">
 
     <link rel="shortcut icon" href="./imagens/logo_vila.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
@@ -28,10 +28,9 @@
         </section>
 
         <section class="titulo">
-            <p>As pequenas famílias são pequenos grupos de pessoas que se reúnem em casas com o propósito de comunhão,
-                relacionamento e discipulado.</p>
-                <br>
-            <p>Tem interesse em fazer parte de um pequena família? Preencha o cadastro abaixo:</p>
+            <p>Podemos orar por você?
+                Mande abaixo seu pedido de oração para que nossa equipe de intercessão possa orar por ele.</p>
+            <br>
         </section>
 
         <section class="form">
@@ -39,46 +38,32 @@
 
                 <div class="box-name">
                     <p>
-                        <label for="inome">Nome: <span class="asterisco">*</span></label>
+                        <label for="inome">Nome (opcional)</label>
                         <input type="text" name="nome" id="inome" required minlength="3" maxlength="20"
-                        autocomplete="name">
+                            autocomplete="name">
                     </p>
                 </div>
-            
-            
-                <div class="box-email">
-                    <p>
-                        <label for="iemail">E-mail: <span class="asterisco">*</span></label><br>
-                        <input type="email" name="email" id="iemail" required maxlength="50"
-                        autocomplete="email">
-                    </p>
-                </div>
-           
-            
+
                 <div class="box-whatsapp">
                     <p>
-                        <label for="iwhatsapp">WhatsApp: </label><br>
+                        <label for="iwhatsapp">Telefone (opcional) </label><br>
                         <input type="tel" name="whatsapp" id="iwhatsapp" required minlength="11" maxlength="11"
-                        autocomplete="tel">
+                            autocomplete="tel">
                     </p>
                 </div>
-                          
+
                 <div class="box-perguntas1">
                     <p>
-                        <label for="ipergunta1">Região que mora <span class="asterisco">*</span></label><br>
-                        <select name="pergunta2" id="ipergunta2">
+                        <input type="checkbox" name="pergunta1" id="ipergunta1">
+                        <label for="pergunta1"> Desejo que entrem em contato comigo</label>
+                        
                     
-                        <option value="" selected >Norte</option>
-                        <option value="">Sul</option>
-                        <option value="">Leste</option>
-                        <option value="">Oeste</option>
-                    </select>
                     </p>
                 </div>
 
                 <div class="box-mensagem">
                     <p>
-                        <label for="imensagem">Mensagem (Opcional):</label><br>
+                        <label for="imensagem">Pelo que podemos orar? <span class="asterisco">*</span></label><br>
                         <textarea name="mensagem" id="imensagem" cols="55" rows="10"></textarea>
                     </p>
                 </div>

@@ -95,35 +95,42 @@ section.form .box-perguntas1{
 
 .box-name input{
     width: 326px;
+    margin-top: 5px;
     
 }
 
 .box-email input{
     width: 326px;
+    margin-top: 5px;
     
 }
 
 .box-whatsapp input{
     width: 326px;
+    margin-top: 5px;
 }
 
 
 .box-perguntas1 > p{
     width: 326px;
     font-weight: bold;
+    margin-top: 5px;
 }
 
 
 .box-perguntas1 > p > select{
     width: 326px;
+    margin-top: 5px;
     
 }
 
 .box-mensagem p{
     font-weight: bold;
+    margin-top: 5px;
 }
 .box-mensagem > p > textarea{
     width: 326px;
+    margin-top: 5px;
     
 }
 
