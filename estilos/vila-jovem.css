@@ -69,8 +69,8 @@ main .img-inicio img{
     height: 60px;
     border-radius: 10px;
     margin-left: 0.6em;
-    background-color: rgba(255, 255, 255, 0.996);
-    color: black;
+    background-color: white;
+    color:black
     margin-top: 20px;
 }
 
