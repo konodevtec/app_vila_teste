@@ -38,8 +38,9 @@ header img:hover{
 }
 
 main .img-inicio img{
+    display: block;
     width: 100%;
-    height: 30vh;
+
 }
 
 main .titulo{
