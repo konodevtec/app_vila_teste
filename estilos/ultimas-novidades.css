@@ -61,7 +61,7 @@ main .titulo{
 
 .mensagem{
     margin-top:20px;
-    margin-left: 15px;
+    margin-left: 34px;
     width: 360px;
     height: 150px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
@@ -77,22 +77,26 @@ main .titulo{
 .mensagem p{
     font-size: .8em;
     padding-top: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .mensagem a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1em;
+    background-color: #526258;
+    padding:5px;
+    border-radius: 5px;
 }
 .mensagem a:hover{
-   font-size: 1.1em;
+   font-size: 1em;
    font-weight: bold;
-   color:#526258;
+   color:rgba(0, 0, 0, 0.485);
+   background-color: #5262589e;
 }
 
 .mensagem:hover{
-    box-shadow: 2px 2px 10px #526258;
+    box-shadow: 1px 1px 5px #526258;
     transition: transform .3s;
 }
 
