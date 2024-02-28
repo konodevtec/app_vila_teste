@@ -85,7 +85,10 @@ section.form .box-perguntas1{
     
 }
 
-
+.box-name input{
+    width: 160px;
+    
+}
 
 .box-email input{
     width: 326px;
