@@ -24,7 +24,7 @@ body{
 }
 header{
     width: 100%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 header img{
@@ -109,12 +109,12 @@ footer .social_content .social:hover{
 }
 
 footer > div > span> a > i{
-    color: white;
+    color: rgba(255, 255, 255, 0.904);
     
 }
 
 footer > div > span p{
-    color: white;
+    color: rgba(255, 255, 255, 0.904);
     padding-bottom: 20px;
     font-size: 0.5em;
 }
