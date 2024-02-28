@@ -22,7 +22,7 @@ body,html{
 
 header{
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.904);
+    background-color: black;
 }
 
 header img{
@@ -30,6 +30,7 @@ header img{
     width: 110px;
     margin:auto;
     padding-top: 10px;
+    filter: invert(1);
 }
 
 header img:hover{
@@ -38,7 +39,7 @@ header img:hover{
 }
 
 main{
-    background-color: rgba(255, 255, 255, 0.904);
+    background-color: black;
 }
 main .img-inicio img{
     display: block;
@@ -49,6 +50,7 @@ main .img-inicio img{
 .titulo{
     text-align: left;
     padding: 20px;
+    color: white;
 }
 
 .titulo p{
@@ -66,13 +68,13 @@ main .img-inicio img{
     height: 60px;
     border-radius: 10px;
     margin-left: 0.6em;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin-top: 20px;
 }
 
 .social .instagram button:hover{
-    background-color: rgba(0, 0, 0, 0.833);
+    background-color: rgba(255, 255, 255, 0.781);
 }
 
 .social .youtube button{
