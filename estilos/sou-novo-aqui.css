@@ -89,7 +89,7 @@ section.form .box-perguntas1{
 }
 
 .box-name input{
-    width: 158px;
+    width: 153px;
     
 }
 
@@ -142,6 +142,10 @@ section.rodape div{
     background-color:lightgray ;
 }
 
+.rodape h2{
+    font-size: 1.2em;
+    margin-left: 10px;
+}
 .rodape button{
     width: 280px;
     height: 60px;
