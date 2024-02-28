@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-@media screen and (min-width:427px) and (max-width:926px) {
+@media screen and (min-width:390px) and (max-width:426px) {
     .mensagem {
         margin-top: 1.2em;
-        margin-left: 1.6em;
+        margin-left: 1em;
         margin-right: 1em;
         width: 23.5em;
         height: 10.5em;
@@ -19,10 +19,10 @@
     }
 }
 
-@media screen and (min-width:833px) and (max-width:1194px) {
+@media screen and (min-width:427px) and (max-width:992px) {
     .mensagem {
         margin-top: 1.2em;
-        margin-left: 14.5em;
+        margin-left: 1.5em;
         margin-right: 1em;
         width: 23.5em;
         height: 10.5em;
