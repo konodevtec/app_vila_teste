@@ -8,6 +8,7 @@
 */
 
 
+
 *{
     margin: 0px;
     padding: 0;
@@ -60,10 +61,11 @@ main .titulo{
 }
 
 .mensagem{
-    margin-top:20px;
-    margin-left: 35px;
-    width: 360px;
-    height: 150px;
+    margin-top:1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 22.1em;
+    height: 10.5em;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
     text-align: center;
     padding: 5px;

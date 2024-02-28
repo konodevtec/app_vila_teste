@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media screen and (min-width:427px) and (max-width:926px) {
+    .mensagem {
+        margin-top: 1.2em;
+        margin-left: 1.6em;
+        margin-right: 1em;
+        width: 23.5em;
+        height: 10.5em;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
+        text-align: center;
+        padding: 5px;
+    }
+}
