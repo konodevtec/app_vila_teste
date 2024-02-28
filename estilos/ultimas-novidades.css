@@ -95,3 +95,7 @@ main .titulo{
     box-shadow: 2px 2px 10px #526258;
     transition: transform .3s;
 }
+
+.mensagem#ultima-mensagem{
+    margin-bottom: 20px;
+}
