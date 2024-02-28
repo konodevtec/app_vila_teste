@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/*
+    color:
+    1 - #526258
+    2 - #484747
+
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body,html{
+    width: 100vw;
+}
+
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+header img{
+    display: block;
+    width: 110px;
+    margin:auto;
+    padding-top: 10px;
+}
+
+header img:hover{
+    transform: translate(0px, 1px);
+    transition: transform .3s;
+}
+
+main .img-inicio img{
+    width: 100%;
+    height: 30vh;
+}
+
+main .titulo{
+    text-align: left;
+    padding: 20px;
+}
+
+section.form div{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+section.form .box-name{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+section.form .box-email{
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+}
+
+section.form .box-whatsapp{
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+}
+
+section.form .box-perguntas1-text{
+margin-left: -1.5px;
+font-weight: bold;
+
+
+}
+
+section.form .box-perguntas1{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+
+
+
+.box-email input{
+    width: 326px;
+    
+}
+
+.box-whatsapp input{
+    width: 326px;
+}
+
+.box-perguntas1 input{
+   
+}
+
+.box-perguntas2 > p{
+    width: 326px;
+    font-weight: bold;
+}
+
+
+.box-perguntas2 > p > select{
+    width: 326px;
+    
+}
+
+.box-mensagem p{
+    font-weight: bold;
+}
+.box-mensagem > p > textarea{
+    width: 326px;
+    
+}
+
+
+section.rodape div{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.asterisco{
+    color: red;
+}
