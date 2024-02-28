@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sou Novo Aqui!</title>
+    <link rel="stylesheet" href="./estilos/meios-contribuicao.css">
+
+    <link rel="shortcut icon" href="./imagens/logo_vila.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="./imagens/logo_vila.png" alt="logo_vila"></a>
+    </header>
+
+    <main>
+        <section class="img-inicio">
+            <img src="./imagens/contribuicao.jpg" alt="">
+        </section>
+
+        <section class="box-mensagem">
+
+            <section class="mensagem">
+                <img src="./imagens/itau_logo.png" alt="itau_logo"><br>
+                <p>
+                    <span>Agência: </span>
+                    <span><b>0081</b></span>
+                </p>
+                <p>
+                    <span>Conta Corrente: </span>
+                    <span><b>62067-6</b></span>
+                </p>
+            </section>
+
+            <section class="mensagem">
+                <img src="./imagens/bradesco_logo.png" alt="itau_logo"><br>
+                <p>
+                    <span>Agência: </span>
+                    <span><b>0108</b></span>
+                </p>
+                <p>
+                    <span>Conta Corrente: </span>
+                    <span><b>169695-5</b></span>
+                </p>
+            </section>
+
+            <section class="mensagem" id="ultimo-banco">
+                <img src="./imagens/pix_logo.png" alt="itau_logo"><br>
+                <p>
+                    <span>Chave PIX: </span>
+                    <span><b>01.659.262/0001-25</b></span>
+                </p>
+                <p>
+                    <button onClick="copyText()">Copiar chave PIX</button>
+                </p>
+            </section>
+        </section>
+        
+
+        <script>
+            function copyText() {
+                navigator.clipboard.writeText
+                    ("01659262000125");
+            }
+        </script>
+    </main>
+</body>
+
+</html>
