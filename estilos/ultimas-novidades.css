@@ -71,6 +71,10 @@ main .titulo{
     text-decoration: none;
     color: black;
 }
+.mensagem a:hover{
+   font-size: 1.1em;
+   font-weight: bold;
+}
 
 .mensagem:hover{
     box-shadow: 2px 2px 10px #526258;
