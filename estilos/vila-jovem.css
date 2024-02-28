@@ -65,7 +65,7 @@ main .img-inicio img{
     width: 280px;
     height: 60px;
     border-radius: 10px;
-    margin-left: 40px;
+    margin-left: 0.6em;
     background-color: black;
     color: white;
     margin-top: 20px;
@@ -79,7 +79,7 @@ main .img-inicio img{
     width: 280px;
     height: 60px;
     border-radius: 10px;
-    margin-left: 40px;
+    margin-left: 0.6em;
     background-color: red;
     color: white;
     margin-top: 20px;
