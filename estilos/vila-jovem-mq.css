@@ -1,5 +1,29 @@
 @charset "UTF-8";
 
+
+@media screen and (min-width:374px) and (max-width:389px) {
+    .social .instagram button{
+        width: 280px;
+        height: 60px;
+        border-radius: 10px;
+        margin-left: 1.5em;
+        background-color: white;
+        color: black;
+        margin-top: 20px;
+    }
+
+    .social .youtube button{
+        width: 280px;
+        height: 60px;
+        border-radius: 10px;
+        margin-left: 1.5em;
+        background-color: red;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (min-width:390px) and (max-width:426px) {
     .social .instagram button{
         width: 280px;
