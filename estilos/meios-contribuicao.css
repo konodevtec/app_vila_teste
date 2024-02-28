@@ -67,6 +67,7 @@ main .titulo{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
     text-align: center;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .mensagem img{

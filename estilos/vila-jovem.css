@@ -64,7 +64,7 @@ main .img-inicio img{
 .social .instagram button{
     width: 280px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: 40px;
     background-color: black;
     color: white;
@@ -78,7 +78,7 @@ main .img-inicio img{
 .social .youtube button{
     width: 280px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: 40px;
     background-color: red;
     color: white;

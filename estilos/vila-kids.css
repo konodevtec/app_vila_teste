@@ -59,7 +59,7 @@ main .img-inicio img{
 .social .youtube button{
     width: 280px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: blue;
     color: white;
     margin-left: 70px;
