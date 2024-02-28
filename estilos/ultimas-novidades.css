@@ -65,15 +65,29 @@ main .titulo{
     height: 100px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
     text-align: center;
+    padding: 5px;
+}
+
+.mensagem h4{
+    padding-top: 10px;
+    font-size: 1em;
+}
+
+.mensagem p{
+    font-size: .8em;
+    padding-top: 2px;
+    padding-bottom: 10px;
 }
 
 .mensagem a{
     text-decoration: none;
     color: black;
+    font-size: 1em;
 }
 .mensagem a:hover{
    font-size: 1.1em;
    font-weight: bold;
+   color:#526258;
 }
 
 .mensagem:hover{
