@@ -62,14 +62,14 @@ main .titulo{
 .mensagem{
     margin:20px;
     width: 360px;
-    height: 100px;
+    height: 150px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
     text-align: center;
     padding: 5px;
 }
 
 .mensagem h4{
-    padding-top: 10px;
+    padding-top: 30px;
     font-size: 1em;
 }
 
