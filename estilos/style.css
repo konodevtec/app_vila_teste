@@ -34,6 +34,11 @@ header img{
     padding-top: 10px;
 }
 
+header img:hover{
+    transform: translate(0px, 1px);
+    transition: transform .3s;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -50,6 +55,10 @@ section{
     display: flex;
     flex-direction: column;
     border-bottom:  1px solid white;
+}
+
+section:hover{
+    background-color: #7c9585;
 }
 
 
@@ -94,6 +103,12 @@ footer > div > span{
     font-size: 1.5em;
 }
 
+footer > div > span:hover{
+    transform: translate(-1px, -1px);
+    transition: transform .3s;
+}
+
 footer > div > span> a > i{
     color: white;
 }
+
