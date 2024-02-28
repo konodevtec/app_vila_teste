@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/*
+    color:
+    1 - #526258
+    2 - #484747
+
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body,html{
+    width: 100vw;
+}
+
+
+header{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+header img{
+    display: block;
+    width: 110px;
+    margin:auto;
+    padding-top: 10px;
+}
+
+header img:hover{
+    transform: translate(0px, 1px);
+    transition: transform .3s;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.904);
+}
+main .img-inicio img{
+    display: block;
+    width: 100%;
+
+}
+
+.titulo{
+    text-align: left;
+    padding: 20px;
+}
+
+.titulo p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+section.form div{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+section.form .box-name{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+section.form .box-email{
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+}
+
+section.form .box-whatsapp{
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+}
+
+section.form .box-perguntas1-text{
+margin-left: -1.5px;
+font-weight: bold;
+
+
+}
+
+section.form .box-perguntas1{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+
+.box-name input{
+    width: 326px;
+    
+}
+
+.box-email input{
+    width: 326px;
+    
+}
+
+.box-whatsapp input{
+    width: 326px;
+}
+
+
+.box-perguntas1 > p{
+    width: 326px;
+    font-weight: bold;
+}
+
+
+.box-perguntas1 > p > select{
+    width: 326px;
+    
+}
+
+.box-mensagem p{
+    font-weight: bold;
+}
+.box-mensagem > p > textarea{
+    width: 326px;
+    
+}
+
+.box-submit input{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.box-submit input:hover{
+    background-color:lightgray ;
+}
+
+.asterisco{
+    color: red;
+}
