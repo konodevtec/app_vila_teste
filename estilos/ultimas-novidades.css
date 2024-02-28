@@ -64,9 +64,15 @@ main .titulo{
     width: 360px;
     height: 100px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
-}
-
-.mensagem h4{
     text-align: center;
 }
 
+.mensagem a{
+    text-decoration: none;
+    color: black;
+}
+
+.mensagem:hover{
+    box-shadow: 2px 2px 10px #526258;
+    transition: transform .3s;
+}

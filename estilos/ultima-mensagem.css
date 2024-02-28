@@ -53,6 +53,12 @@ main .link{
     margin:20px;
     background-color: black;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.511);
+    
+}
+
+main .link:hover{
+    box-shadow: 2px 2px 20px #526258;
+    transition: transform .3s;
 }
 
 .titulo-link{
