@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:360px) and (max-width:389px) {
+
+    .box-name input {
+        width: 156px;
+
+    }
+
+    section.form .box-name {
+
+        margin-left: 0.3em;
+    }
+
+    section.form .box-email {
+        margin-left: 0.3em;
+    }
+
+    section.form .box-whatsapp {
+        margin-left: 0.3em;
+    }
+
+    section.form .box-perguntas1-text {
+        margin-left: 0.3em;
+
+    }
+
+    section.form .box-perguntas1 {
+        margin-left: 1em;
+    }
+
+    .box-perguntas2>p {
+        margin-left: 0.2em;
+    }
+
+    .box-mensagem p {
+        margin-left: 0.2em;
+       
+    }
+
+    .box-submit input {
+        margin-left: 0.3em;
+    }
+
+
+    .rodape h2 {
+        margin-left: 0.3em;
+    }
+    
+    .rodape button {
+        margin-left: 1.6em;
+
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:426px) {
+    section.form .box-name {
+
+        margin-left: 1em;
+    }
+}
+
+@media screen and (min-width:427px) and (max-width:992px) {
+
+    .box-name input {
+        width: 142px;
+
+    }
+
+    section.form .box-name {
+
+        margin-left: 2.1em;
+    }
+
+    section.form .box-email {
+        margin-left: 2.1em;
+    }
+
+    section.form .box-whatsapp {
+        margin-left: 2.1em;
+    }
+
+    section.form .box-perguntas1-text {
+        margin-left: 2.1em;
+
+    }
+
+    section.form .box-perguntas1 {
+        margin-left: 1em;
+    }
+
+    section.form .box-perguntas1 input{
+        margin-left:2.5em;
+    }
+
+    .box-perguntas2>p {
+        margin-left: 2.1em;
+    }
+
+    .box-mensagem p {
+        margin-left: 2.1em;
+       
+    }
+
+    .box-submit input {
+        margin-left: 2.5em;
+    }
+
+
+    .rodape h2 {
+        margin-left: 2.4em;
+    }
+    
+    .rodape button {
+        margin-left: 4.4em;
+
+    }
+}

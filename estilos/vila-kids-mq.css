@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-@media screen and (min-width:374px) and (max-width:389px) {
+@media screen and (min-width:360px) and (max-width:389px) {
     .social .youtube button{
         width: 280px;
         height: 60px;
         border-radius: 10px;
         background-color: blue;
         color: white;
-        margin-left: 3.7em;
+        margin-left: 2.8em;
         margin-top: 20px;
         margin-bottom: 20px;
       

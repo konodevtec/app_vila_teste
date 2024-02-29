@@ -64,56 +64,65 @@ section.form div{
 section.form .box-name{
     display: flex;
     justify-content: space-evenly;
-    font-weight: bold;
+    font-weight: normal;
+    color: #526258;
+    
 }
 
-section.form .box-email{
-    display: flex;
-    justify-content: left;
-    font-weight: bold;
+section.form .box-name label{
+    margin-left: 0.4em;
 }
 
-section.form .box-whatsapp{
+section.form .box-telefone{
     display: flex;
     justify-content: left;
-    font-weight: bold;
+    font-weight: normal;
+    color: #526258;
+}
+
+section.form .box-telefone label{
+    margin-left: 0.4em;
 }
 
 section.form .box-perguntas1-text{
 margin-left: -1.5px;
 font-weight: bold;
-
-
 }
+
 
 section.form .box-perguntas1{
     display: flex;
     justify-content: left;
     flex-direction: column;
+    color: #526258;
     
 }
 
 .box-name input{
     width: 326px;
     margin-top: 5px;
+    margin-left: 0.6em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
+    
     
 }
 
-.box-email input{
+.box-telefone input{
     width: 326px;
     margin-top: 5px;
-    
-}
-
-.box-whatsapp input{
-    width: 326px;
-    margin-top: 5px;
+    margin-left: 0.6em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
 }
 
 
 .box-perguntas1 > p{
     width: 326px;
     font-weight: normal;
+    margin-left: 0.6em;
 }
 
 
@@ -123,11 +132,16 @@ section.form .box-perguntas1{
 }
 
 .box-mensagem p{
-    font-weight: bold;
+    font-weight: normal;
+    margin-left: 0.6em;
+    color: #526258;
 }
 .box-mensagem > p > textarea{
     width: 326px;    
     margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
 }
 
 .box-submit input{
@@ -135,6 +149,7 @@ section.form .box-perguntas1{
     height: 40px;
     border-radius: 5px;
     margin-bottom: 40px;
+    margin-left: 0.8em;
 }
 
 .box-submit input:hover{

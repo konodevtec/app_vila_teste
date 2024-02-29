@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:360px) and (max-width:389px) {
+    .box-name input{
+        margin-left: 0em;
+    }
+    
+    .box-telefone input{
+        margin-left: 0em;
+    }
+    
+    .box-perguntas1 > p{
+        margin-left: 0em;
+    }
+    
+    
+    .box-perguntas1 > p > select{
+        margin-left: 0em;
+        
+    }
+    
+    .box-mensagem p{
+        margin-left: 0em;
+    }
+    .box-mensagem > p > textarea{
+        margin-left: 0em;
+    }
+    
+    .box-submit input{
+        margin-left: 0em;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:426px) {
+    
+}
+
+@media screen and (min-width:427px) and (max-width:992px) {
+    .box-name input{
+        margin-left: 2.3em;
+    }
+
+    section.form .box-name label{
+        margin-left: 2.3em;
+    }
+    
+    .box-telefone input{
+        margin-left: 2.3em;
+    }
+
+    section.form .box-telefone label{
+        margin-left: 2.0em;
+    }
+    
+    
+    .box-perguntas1 > p{
+        margin-left: 1.7em;
+    }
+    
+
+    
+    .box-mensagem p{
+        margin-left: 1.9em;
+    }
+    
+    .box-submit input{
+        margin-left: 2.4em;
+    }
+}

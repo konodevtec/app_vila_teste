@@ -63,27 +63,49 @@ section.form div{
 
 section.form .box-name{
     display: flex;
-    justify-content: space-evenly;
-    font-weight: bold;
+    justify-content: left;
+    font-weight: normal;
+    color: #526258;
+    margin-left: 1.25em;
+}
+
+section.form .box-name label{
+    margin-left: 0.8em;
 }
 
 section.form .box-email{
     display: flex;
     justify-content: left;
-    font-weight: bold;
+    font-weight: normal;
+    color: #526258;
+    margin-left: 1.25em;
+}
+
+section.form .box-email label{
+    margin-left: 0.8em;
 }
 
 section.form .box-whatsapp{
     display: flex;
     justify-content: left;
-    font-weight: bold;
+    font-weight: normal;
+    color: #526258;
+    margin-left: 1.25em;
+}
+
+section.form .box-whatsapp label{
+    margin-left: 0.8em;
 }
 
 section.form .box-perguntas1-text{
 margin-left: -1.5px;
-font-weight: bold;
+font-weight: normal;
+color: #526258;
+margin-left: 1.25em;
+}
 
-
+section.form .box-perguntas1 label{
+    margin-left: 0.8em;
 }
 
 section.form .box-perguntas1{
@@ -95,42 +117,63 @@ section.form .box-perguntas1{
 
 .box-name input{
     width: 326px;
-    margin-top: 5px;
-    
+    margin-top: 5px;    
+    margin-left: 0.8em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
 }
 
 .box-email input{
     width: 326px;
     margin-top: 5px;
+    margin-left: 0.8em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
     
 }
 
 .box-whatsapp input{
     width: 326px;
     margin-top: 5px;
+    margin-left: 0.8em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
 }
 
 
 .box-perguntas1 > p{
     width: 326px;
-    font-weight: bold;
+    font-weight: normal;
     margin-top: 5px;
+    color: #526258;
 }
 
 
 .box-perguntas1 > p > select{
     width: 326px;
-    margin-top: 5px;
-    
+    margin-top: 5px;  
+    color: #526258;
+    margin-left: 0.8em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
 }
 
 .box-mensagem p{
-    font-weight: bold;
+    font-weight: normal;
     margin-top: 5px;
+    color: #526258;
+    margin-left: 0.8em;
 }
 .box-mensagem > p > textarea{
     width: 326px;
     margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
     
 }
 
@@ -139,6 +182,10 @@ section.form .box-perguntas1{
     height: 40px;
     border-radius: 5px;
     margin-bottom: 40px;
+    margin-left: 0.8em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
 }
 
 .box-submit input:hover{

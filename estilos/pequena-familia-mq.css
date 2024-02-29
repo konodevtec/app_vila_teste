@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:360px) and (max-width:389px) {
+    section.form .box-name{
+        margin-left: 0.5em;
+    }
+    
+    section.form .box-email{
+        margin-left: 0.5em;
+    }
+    
+    section.form .box-whatsapp{
+        margin-left: 0.5em;
+    }
+    
+    section.form .box-perguntas1-text{
+    margin-left: 0.5em;
+    }
+
+    section.form .box-perguntas1 label{
+        margin-left: 0em;
+    }
+
+    .box-perguntas1 > p > select{
+        margin-left: 0em;
+    }
+    
+    .box-mensagem p{
+        margin-left: 0em;
+    }   
+
+    .box-submit input{
+        margin-left: 0em;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:426px) {
+    
+}
+
+@media screen and (min-width:427px) and (max-width:992px) {
+    section.form .box-name{
+        margin-left: 2em;
+    }
+    
+    section.form .box-email{
+        margin-left: 2em;
+    }
+    
+    section.form .box-whatsapp{
+        margin-left: 2em;
+    }
+    
+    section.form .box-perguntas1-text{
+    margin-left: 2em;
+    }
+
+    section.form .box-perguntas1 label{
+        margin-left: 1.6em;
+    }
+
+    .box-perguntas1 > p > select{
+        margin-left: 1.8em;
+    }
+    
+    .box-mensagem p{
+        margin-left: 1.6em;
+    }   
+
+    .box-submit input{
+        margin-left: 2em;
+    }
+}

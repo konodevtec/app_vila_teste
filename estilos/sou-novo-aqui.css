@@ -75,7 +75,7 @@ section.form .box-email {
     justify-content: left;
     font-weight: normal;
     color: #526258;
-    margin-left: em;
+    margin-left: 1em;
 }
 
 section.form .box-email label{
@@ -117,7 +117,7 @@ section.form .box-perguntas1 {
 }
 
 .box-name input {
-    width: 154px;
+    width: 152px;
     margin-top: 5px;
     margin-left: 1em;
     border: none;
@@ -160,7 +160,6 @@ section.form .box-perguntas1 {
 .box-perguntas2>p>select {
     width: 326px;
     margin-top: 5px;
-
     border: none;
     border-radius: 3px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
