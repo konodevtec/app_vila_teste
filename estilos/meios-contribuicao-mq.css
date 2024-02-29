@@ -11,19 +11,24 @@
     
 }
 
-@media screen and (min-width:427px) and (max-width:833px) {
+@media screen and (min-width:427px) and (max-width:767px) {
     .mensagem{
         margin-left: 5.6em; 
     }
 }
 
-@media screen and (min-width:834px) and (max-width:1193px){
+@media screen and (min-width:768px) and (max-width:1193px){
     main .img-inicio img{
         display: relative;
         width: 100vw;
         height: 30vh;
         margin-left: 0em;  
     } 
+
+    .mensagem{
+        width: 50%;
+        margin-left: 13.5em;
+    }
 }
 
 @media screen and (min-width:1193px) and (max-width:1727px){
@@ -33,6 +38,10 @@
         height: 60vh;
         margin-left: 0em;    
     }
+
+    .mensagem{
+        margin-left: 8.3em;
+    }
 }
 
 @media screen and (min-width:1728px) and (max-width:1920px){
@@ -41,5 +50,9 @@
         width: 100vw;
         height: 60vh;
         margin-left: 0em;    
+    }
+
+    .mensagem{
+        margin-left: 8.3em;
     }
 }
