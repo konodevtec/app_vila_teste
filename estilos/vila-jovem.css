@@ -28,7 +28,7 @@ header{
 
 span#burguer{
     display: block;
-    color: #526258;
+    color: white;
     text-align: right;
     padding: 10px;
     cursor: pointer;
@@ -39,8 +39,8 @@ span#burguer{
 }
 
 span#burguer:hover{
-    background-color: #526258;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 10px;
 }
 
@@ -57,8 +57,8 @@ menu > ul > li > a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: #526258;
-    color: white;
+    background-color: white;
+    color: black;
     border-top: 1px solid white;
 }
 

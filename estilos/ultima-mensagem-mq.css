@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width:360) and (max-width:389px) {
+@media screen and (min-width:360px) and (max-width:389px) {
     span#burguer{
         display: block;
         color: #526258;
