@@ -17,6 +17,18 @@
     .mensagem#ultima-mensagem{
         margin-bottom: 1.2em;
     }
+
+    span#burguer{
+        display: block;
+        color: #526258;
+        text-align: right;
+        padding: 10px;
+        cursor: pointer;
+        width: 1.8em;
+        margin-left: 12.8em;
+        margin-top: -2em;
+        margin-bottom: 1em;
+    }
 }
 
 @media screen and (min-width:390px) and (max-width:426px) {
@@ -29,12 +41,22 @@
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.585);
         text-align: center;
         padding: 5px;
-
-        
     }
 
     .mensagem#ultima-mensagem{
         margin-bottom: 1.2em;
+    }
+
+    span#burguer{
+        display: block;
+        color: #526258;
+        text-align: right;
+        padding: 10px;
+        cursor: pointer;
+        width: 1.8em;
+        margin-left: 14em;
+        margin-top: -2em;
+        margin-bottom: 1em;
     }
 }
 
@@ -53,6 +75,10 @@
     .mensagem#ultima-mensagem{
         margin-bottom: 1.2em;
     }
+
+    span#burguer{
+        margin-left: 15.5em;
+}
 }
 
 @media screen and (min-width:834px) and (max-width:1193px){
@@ -62,6 +88,11 @@
         height: 30vh;
         margin-left: 0em;  
     } 
+
+    span#burguer{
+        margin-left: 32em;
+
+}
 }
 
 @media screen and (min-width:1193px) and (max-width:1727px){
@@ -70,6 +101,26 @@
         width: 100vw;
         height: 60vh;
         margin-left: 0em;    
+    }
+
+    span#burguer{
+        display: none;
+
+    } 
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+        width: 10.8%;
+        font-size: 0.5em;
+    }
+
+    menu > ul > li a{
+        border: none;
+        margin-left:-8px
     }
 }
 

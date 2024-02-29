@@ -15,12 +15,30 @@
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 </head>
 
 <body>
     <header>
         <a href="../index.html"><img src="../imagens/logo_vila.png" alt="logo_vila"></a>
+
+        <span  id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="./sou-novo-aqui.html"><i class="fa-solid fa-user-plus"></i> Sou Novo Aqui</a></li>
+                <li><a href="./ultima-mensagem.html"><i class="fa-solid fa-comment"></i> Última Mensagem</a></li>
+                <li><a href="./ultimas-novidades.html"><i class="fa-solid fa-rss"></i> Últimas Novidades</a></li>
+                <li><a href="./vila-jovem.html"><i class="fa-solid fa-bolt"></i> Vila Jovem</a></li>
+                <li><a href="./vila-kids.html"><i class="fa-solid fa-shapes"></i> Vila Kids</a></li>
+                <li><a href="./pequena-familia.html"><i class="fa-solid fa-share-nodes"></i> Pequenas Famílias</a></li>
+                <li><a href="./coworking.html"><i class="fa-solid fa-briefcase"></i> Coworking</a></li>
+                <li><a href="./meios-contribuicao.html"><i class="fa-solid fa-circle-dollar-to-slot"></i> Meios de
+                        Contribuição</a></li>
+                <li><a href="./pedidos-oracao.html"><i class="fa-solid fa-hands-praying"></i> Pedidos de Oração</a></li>
+            </ul>
+        </menu>
     </header>
 
     <main>
@@ -31,7 +49,7 @@
         <section class="titulo">
             <p>As pequenas famílias são pequenos grupos de pessoas que se reúnem em casas com o propósito de comunhão,
                 relacionamento e discipulado.</p>
-                <br>
+            <br>
             <p>Tem interesse em fazer parte de um pequena família? Preencha o cadastro abaixo:</p>
         </section>
 
@@ -42,38 +60,37 @@
                     <p>
                         <label for="inome">Nome: <span class="asterisco">*</span></label><br>
                         <input type="text" name="nome" id="inome" required minlength="3" maxlength="20"
-                        autocomplete="name">
+                            autocomplete="name">
                     </p>
                 </div>
-            
-            
+
+
                 <div class="box-email">
                     <p>
                         <label for="iemail">E-mail: <span class="asterisco">*</span></label><br>
-                        <input type="email" name="email" id="iemail" required maxlength="50"
-                        autocomplete="email">
+                        <input type="email" name="email" id="iemail" required maxlength="50" autocomplete="email">
                     </p>
                 </div>
-           
-            
+
+
                 <div class="box-whatsapp">
                     <p>
                         <label for="iwhatsapp">WhatsApp: </label><br>
                         <input type="tel" name="whatsapp" id="iwhatsapp" required minlength="11" maxlength="11"
-                        autocomplete="tel">
+                            autocomplete="tel">
                     </p>
                 </div>
-                          
+
                 <div class="box-perguntas1">
                     <p>
                         <label for="ipergunta1">Região que mora <span class="asterisco">*</span></label><br>
                         <select name="pergunta2" id="ipergunta2">
-                    
-                        <option value="" selected >Norte</option>
-                        <option value="">Sul</option>
-                        <option value="">Leste</option>
-                        <option value="">Oeste</option>
-                    </select>
+
+                            <option value="" selected>Norte</option>
+                            <option value="">Sul</option>
+                            <option value="">Leste</option>
+                            <option value="">Oeste</option>
+                        </select>
                     </p>
                 </div>
 
@@ -93,6 +110,24 @@
             </form>
 
     </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (windo.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 
 </html>

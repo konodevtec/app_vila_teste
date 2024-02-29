@@ -26,6 +26,46 @@ header{
     background-color: black;
 }
 
+span#burguer{
+    display: block;
+    color: #526258;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+    width: 1.8em;
+    margin-left: 14em;
+    margin-top: -2em;
+    margin-bottom: 1em;
+}
+
+span#burguer:hover{
+    background-color: #526258;
+    color: white;
+    border-radius: 10px;
+}
+
+menu{
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #526258;
+    color: white;
+    border-top: 1px solid white;
+}
+
+menu > ul > li a:hover{
+    background-color: #7c9585;
+}
+
 header img{
     display: block;
     width: 110px;
@@ -70,7 +110,7 @@ main .img-inicio img{
     border-radius: 10px;
     margin-left: 0.6em;
     background-color: white;
-    color:black
+    color:black;
     margin-top: 20px;
 }
 
