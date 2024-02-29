@@ -129,6 +129,20 @@
         border: none;
         margin-left:-8px
     }
+
+    .social .instagram button{
+        margin-left: 40em;
+    }
+
+    .social .youtube button{
+        margin-left: 40em;
+    }
+
+    
+.titulo{
+    text-align: center;
+    color: white;
+}
 }
 
 @media screen and (min-width:1728px) and (max-width:1920px){

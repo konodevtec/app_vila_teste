@@ -122,6 +122,13 @@
         border: none;
         margin-left:-8px
     }
+
+    .mensagem{
+        margin-top:2em;
+        margin-left: 14.5em ;
+        width: 70vw;
+        height: 10.5em;
+    }
 }
 
 @media screen and (min-width:1728px) and (max-width:1920px){
