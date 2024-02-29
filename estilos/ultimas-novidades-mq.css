@@ -38,7 +38,7 @@
     }
 }
 
-@media screen and (min-width:427px) and (max-width:992px) {
+@media screen and (min-width:427px) and (max-width:833px) {
     .mensagem {
         margin-top: 1.2em;
         margin-left: 1.5em;
@@ -52,5 +52,32 @@
 
     .mensagem#ultima-mensagem{
         margin-bottom: 1.2em;
+    }
+}
+
+@media screen and (min-width:834px) and (max-width:1193px){
+    main .img-inicio img{
+        display: relative;
+        width: 100vw;
+        height: 30vh;
+        margin-left: 0em;  
+    } 
+}
+
+@media screen and (min-width:1193px) and (max-width:1727px){
+    main .img-inicio img {
+        display: relative;
+        width: 100vw;
+        height: 60vh;
+        margin-left: 0em;    
+    }
+}
+
+@media screen and (min-width:1728px) and (max-width:1920px){
+    main .img-inicio img {
+        display: relative;
+        width: 100vw;
+        height: 60vh;
+        margin-left: 0em;    
     }
 }
