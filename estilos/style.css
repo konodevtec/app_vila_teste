@@ -37,6 +37,8 @@ header img{
 header img:hover{
     transform: translate(0px, 1px);
     transition: transform .3s;
+    animation: loading 3s linear infinite;
+    
 }
 
 main{
@@ -59,6 +61,7 @@ section{
 
 section:hover{
     background-color: #7c9585;
+
 }
 
 
@@ -82,8 +85,9 @@ section.content-final{
     margin-left: 30px;
     padding-top: 30px;
     margin-bottom: -39px;
-    color: white;
+    color: white;    
 }
+
 
 footer{
     display:flex;
@@ -129,3 +133,12 @@ footer .contato p:hover{
     transition: transform .3s;
 }
 
+@keyframes loading{
+    from{
+        transform: rotate(0deg);
+    }
+    
+    to{
+        transform: rotate(360deg);
+    }
+}
